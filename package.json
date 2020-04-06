@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "get-zodiac-sign": "^1.0.3"
+    "get-zodiac-sign": "^1.0.3",
+    "minimist":"latest",
+    "acorn": "latest"
   }
 }
