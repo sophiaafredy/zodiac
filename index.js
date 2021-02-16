@@ -1,6 +1,6 @@
 const zodiacSign = require('get-zodiac-sign');
-var myZodiacSign1 = zodiacSign(3,13);
-var myZodiacSign2 = zodiacSign(2,18);
+var myZodiacSign1 = zodiacSign(9,8);
+var myZodiacSign2 = zodiacSign(6,1);
 console.log(myZodiacSign1);
 console.log(myZodiacSign2);
 
@@ -19,11 +19,11 @@ const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
   res.end("My Zodiac Sign is " + myZodiacSign1);
-  res.end("My Daughter's Zodiac Sign is " + myZodiacSign2);
+  res.end("My mother's Zodiac Sign is " + myZodiacSign2);
     
 });
 
 server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
-  console.log('My Zodiac Sign is ' + myZodiacSign1 + 'and daugther is ' + myZodiacSign2)
+  console.log('My Zodiac Sign is ' + myZodiacSign1 + 'and my mother is ' + myZodiacSign2)
 });
