@@ -1,6 +1,6 @@
 const zodiacSign = require('get-zodiac-sign');
-var myZodiacSign1 = zodiacSign(1,7);
-var myZodiacSign2 = zodiacSign(12,1);
+var myZodiacSign1 = zodiacSign(3,13);
+var myZodiacSign2 = zodiacSign(2,18);
 console.log(myZodiacSign1);
 console.log(myZodiacSign2);
 
