@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "get-zodiac-sign": "^1.0.3",
-    "minimist":"latest",
+    "minimist": "latest",
     "acorn": "latest"
   }
 }
